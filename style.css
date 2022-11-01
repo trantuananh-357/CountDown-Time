@@ -1,0 +1,78 @@
+:root{
+    --color-time: rgb(45, 45, 19);
+
+}
+*{
+    font-family: 'Roboto Slab', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center center;
+    min-height: 100vh;
+    background-size: cover ;
+    background-image: url("./assets/images/simon-berger-SD68VmEjzdA-unsplash.jpg");
+    
+    
+    
+}
+.wrapper{
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(241, 227, 227, 0.214);
+    height: 100vh;
+   
+}
+
+.title{
+    text-transform: capitalize;
+    font-size: 10rem;
+    color: var(--color-time);
+    padding-bottom: 5rem;
+    
+    
+
+}
+.countDown-container{
+    display: flex;
+    text-align: center;
+    
+    
+    font-size: 10rem;
+}
+.big-text{
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 5rem;
+    width: 10rem;
+    border: 4px dashed rgb(25, 21, 21);
+    border-radius: 2rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.countDown-container span{
+    font-weight: normal;
+    text-transform: capitalize;
+    color: var(--color-time);
+        width: 5rem;
+
+    font-size: 2rem;
+}
